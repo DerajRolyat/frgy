@@ -1,0 +1,115 @@
+<!-- Boy: ~12 years old, feet at (0,0) -->
+  <g transform="translate(680 978) scale(1.6)">
+    <defs>
+      <linearGradient id="shirtG" x1="-35" y1="0" x2="35" y2="0" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#6a6d72"/><stop offset="0.55" stop-color="#4c4f54"/><stop offset="1" stop-color="#36383d"/>
+      </linearGradient>
+      <linearGradient id="jeansG" x1="-25" y1="0" x2="25" y2="0" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#4d5b78"/><stop offset="1" stop-color="#2b344b"/>
+      </linearGradient>
+      <linearGradient id="skinG" x1="-20" y1="0" x2="20" y2="0" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#f6cfb2"/><stop offset="0.6" stop-color="#ecbc9c"/><stop offset="1" stop-color="#cf9c80"/>
+      </linearGradient>
+      <linearGradient id="hairG" x1="0" y1="-312" x2="0" y2="-276" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#9a6c3f"/><stop offset="0.45" stop-color="#c49359"/><stop offset="1" stop-color="#a87843"/>
+      </linearGradient>
+    </defs>
+    <ellipse cx="2" cy="2" rx="42" ry="6" fill="#0b120e" opacity="0.5"/>
+
+    <!-- legs (jeans rolled at the ankle) -->
+    <path d="M-24 -142 L-2 -142 L-5 -26 L-21 -26 Z" fill="url(#jeansG)"/>
+    <path d="M2 -142 L24 -142 L21 -26 L5 -26 Z" fill="url(#jeansG)"/>
+    <rect x="-22.5" y="-32" width="19" height="8" rx="2" fill="#5d6c8a"/>
+    <rect x="3.5" y="-32" width="19" height="8" rx="2" fill="#45526e"/>
+    <rect x="-18" y="-24" width="11" height="12" fill="#e2b393"/>
+    <rect x="8" y="-24" width="11" height="12" fill="#c99a7e"/>
+    <!-- sneakers -->
+    <path d="M-26 -13 C-26 -16 -6 -16 -5 -12 L-4 -2 C-4 0 -6 1 -8 1 L-30 1 C-34 1 -34 -4 -30 -6 Z" fill="#cfc8ba"/>
+    <path d="M5 -12 C6 -16 26 -16 26 -13 L30 -6 C34 -4 34 1 30 1 L8 1 C6 1 4 0 4 -2 Z" fill="#a9a396"/>
+    <path d="M-33 -1 H-4 M4 -1 H33" stroke="#7d776c" stroke-width="2.5"/>
+
+    <!-- torso: charcoal t-shirt -->
+    <path d="M-34 -232 C-22 -240 22 -240 34 -232 L40 -205 L32 -200 L29 -140 L-29 -140 L-32 -200 L-40 -205 Z" fill="url(#shirtG)"/>
+    <path d="M-29 -146 H29 V-138 H-29 Z" fill="#3a3c40"/>
+    <path d="M-10 -237 Q0 -229 10 -237" stroke="#2e3034" stroke-width="3" fill="none"/>
+    <path d="M-20 -215 Q-12 -200 -18 -180 M14 -190 Q20 -175 16 -160" stroke="#3a3c40" stroke-width="1.2" fill="none" opacity="0.6"/>
+    <rect x="-25" y="-142" width="50" height="5" fill="#2a2420"/>
+
+    <!-- left arm hanging relaxed -->
+    <path d="M-35 -222 C-44 -200 -46 -175 -44 -150" stroke="#e0b092" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <path d="M-33 -233 C-40 -228 -46 -214 -47 -204 L-34 -199 L-29 -222 Z" fill="#5d6065"/>
+    <path d="M-44 -150 C-45 -142 -46 -136 -43 -132 C-40 -130 -37 -134 -38 -142 Z" fill="#e0b092"/>
+
+    <!-- right arm bent, hand cupped holding a frog -->
+    <path d="M35 -222 C42 -205 44 -190 40 -178 C34 -172 20 -170 8 -172" stroke="#d3a184" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <path d="M33 -233 C40 -228 46 -214 47 -204 L34 -199 L29 -222 Z" fill="#3f4247"/>
+    <path d="M14 -178 C8 -178 -2 -176 -4 -170 C-2 -164 14 -164 20 -167 Z" fill="#e6b597"/>
+    <use href="#frog" transform="translate(4 -176) scale(0.45)"/>
+
+    <!-- neck -->
+    <path d="M-7 -250 L7 -250 L8 -235 L-8 -235 Z" fill="#d9a587"/>
+    <path d="M-7 -246 Q0 -242 7 -246" stroke="#c18c70" stroke-width="2" fill="none" opacity="0.6"/>
+
+    <!-- ears: stick out a little -->
+    <path d="M-17 -276 C-24 -280 -26 -268 -23 -262 C-21 -258 -18 -259 -16 -262 Z" fill="#efbf9f"/>
+    <path d="M-19 -272 C-22 -271 -22 -266 -20 -264" stroke="#c9917a" stroke-width="1.1" fill="none"/>
+    <path d="M17 -276 C24 -280 26 -268 23 -262 C21 -258 18 -259 16 -262 Z" fill="#d7a487"/>
+    <path d="M19 -272 C22 -271 22 -266 20 -264" stroke="#b9826a" stroke-width="1.1" fill="none"/>
+
+    <!-- face -->
+    <path d="M-17.5 -282 C-18 -301 18 -301 17.5 -282 L17 -266 C15.5 -253 8 -245.5 0 -245.5 C-8 -245.5 -15.5 -253 -17 -266 Z" fill="url(#skinG)"/>
+    <ellipse cx="-10.5" cy="-262" rx="4.6" ry="2.8" fill="#ec8e7c" opacity="0.35"/>
+    <ellipse cx="10.5" cy="-262" rx="4.6" ry="2.8" fill="#e0806f" opacity="0.3"/>
+
+    <!-- brows (mostly hidden by the fringe) -->
+    <path d="M-12 -278 Q-7.5 -280.5 -3 -278.8 M3 -278.8 Q7.5 -280.5 12 -278" stroke="#a87a4c" stroke-width="1.3" fill="none" stroke-linecap="round"/>
+
+    <!-- eyes: blue-green -->
+    <g class="blink">
+      <ellipse cx="-7.5" cy="-273" rx="4.1" ry="2.9" fill="#fbf7f2"/>
+      <ellipse cx="7.5" cy="-273" rx="4.1" ry="2.9" fill="#fbf7f2"/>
+      <circle cx="-7" cy="-273" r="2.5" fill="#6f9590"/>
+      <circle cx="8" cy="-273" r="2.5" fill="#6f9590"/>
+      <circle cx="-7" cy="-273" r="1.7" fill="#4c7470" opacity="0.6"/>
+      <circle cx="8" cy="-273" r="1.7" fill="#4c7470" opacity="0.6"/>
+      <circle cx="-7" cy="-273" r="1.05" fill="#141414"/>
+      <circle cx="8" cy="-273" r="1.05" fill="#141414"/>
+      <circle cx="-6.2" cy="-273.9" r="0.6" fill="#fff"/>
+      <circle cx="8.8" cy="-273.9" r="0.6" fill="#fff"/>
+    </g>
+    <path d="M-11.6 -273.8 Q-7.5 -276.6 -3.4 -273.8 M3.4 -273.8 Q7.5 -276.6 11.6 -273.8" stroke="#7b5440" stroke-width="0.8" fill="none"/>
+
+    <!-- nose -->
+    <path d="M0.5 -271 C1 -267 2.6 -264.5 2.4 -263 C1.6 -261.8 -1.6 -261.8 -2.4 -263" stroke="#c48a6e" stroke-width="0.9" fill="none" stroke-linecap="round"/>
+    <ellipse cx="0" cy="-263.4" rx="2.6" ry="1.4" fill="#e7a98c" opacity="0.6"/>
+
+    <!-- freckles across the nose and cheeks -->
+    <g fill="#bf7a5a" opacity="0.65">
+      <circle cx="-3" cy="-266" r="0.45"/><circle cx="-1.6" cy="-267.6" r="0.4"/><circle cx="1.8" cy="-267" r="0.45"/><circle cx="3.4" cy="-265.6" r="0.4"/>
+      <circle cx="-5.6" cy="-265.2" r="0.5"/><circle cx="-7.8" cy="-264" r="0.45"/><circle cx="-10" cy="-265.4" r="0.5"/><circle cx="-12" cy="-263.6" r="0.4"/>
+      <circle cx="-9" cy="-262" r="0.45"/><circle cx="-6.6" cy="-262.8" r="0.4"/><circle cx="-11.4" cy="-261" r="0.4"/>
+      <circle cx="5.6" cy="-265.2" r="0.5"/><circle cx="7.8" cy="-264" r="0.45"/><circle cx="10" cy="-265.4" r="0.5"/><circle cx="12" cy="-263.6" r="0.4"/>
+      <circle cx="9" cy="-262" r="0.45"/><circle cx="6.6" cy="-262.8" r="0.4"/><circle cx="11.4" cy="-261" r="0.4"/>
+    </g>
+
+    <!-- smile showing top teeth -->
+    <g transform="translate(0 -255) scale(0.82 0.78) translate(0 255)">
+    <path d="M-7.5 -257.4 Q0 -254.4 7.5 -257.4 Q6 -252 0 -251.6 Q-6 -252 -7.5 -257.4 Z" fill="#b8645e"/>
+    <path d="M-6.4 -256.8 Q0 -254.6 6.4 -256.8 L5.6 -254.9 Q0 -253.4 -5.6 -254.9 Z" fill="#fbf6ee"/>
+    <path d="M-2 -255.4 V-253.9 M2 -255.4 V-253.9" stroke="#e2d8cc" stroke-width="0.4"/>
+    <path d="M-6 -252.9 Q0 -250 6 -252.9" stroke="#d98d86" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+    <path d="M-8.4 -258 Q-8.8 -256.6 -8 -255.6 M8.4 -258 Q8.8 -256.6 8 -255.6" stroke="#c98a72" stroke-width="0.7" fill="none" stroke-linecap="round"/>
+
+    </g>
+    <!-- hair: honey-blond, shaggy, heavy side-swept fringe to the brows -->
+    <path d="M-21 -265 C-24.5 -281 -22.5 -296 -12 -302.5 C-4 -307 10 -307 17.5 -301 C23.5 -295 24.5 -281 21 -265 C20 -271 19 -276 17.5 -280 C10 -289 -10 -289 -17.5 -280 C-19 -276 -20 -271 -21 -265 Z" fill="url(#hairG)"/>
+    <path d="M-20.5 -285 C-21 -300 -10 -306.5 0 -306.5 C10 -306.5 21 -300 20.5 -285 C14 -294 -14 -294 -20.5 -285 Z" fill="#b48450"/>
+    <path d="M-21.2 -292.6 Q-19.7 -286.0 -20.3 -280.6 Q-14.9 -285.0 -13.8 -292.6 Z" fill="#b8874f"/><path d="M-18.2 -293.4 Q-16.7 -286.0 -17.4 -280.9 Q-11.9 -285.0 -10.8 -293.4 Z" fill="#c99a5e"/><path d="M-15.6 -294.1 Q-14.0 -286.0 -13.2 -276.3 Q-8.6 -285.0 -7.4 -294.1 Z" fill="#a97a45"/><path d="M-12.0 -294.9 Q-10.6 -286.0 -10.6 -279.1 Q-6.0 -285.0 -5.0 -294.9 Z" fill="#d1a668"/><path d="M-9.0 -295.6 Q-7.6 -286.0 -8.3 -279.3 Q-3.1 -285.0 -2.0 -295.6 Z" fill="#b08049"/><path d="M-6.7 -296.4 Q-5.0 -286.0 -4.2 -276.3 Q0.4 -285.0 1.7 -296.4 Z" fill="#b8874f"/><path d="M-3.1 -296.9 Q-1.6 -286.0 -2.2 -276.8 Q3.0 -285.0 4.1 -296.9 Z" fill="#c99a5e"/><path d="M-0.7 -296.1 Q1.0 -286.0 1.7 -277.5 Q6.5 -285.0 7.7 -296.1 Z" fill="#a97a45"/><path d="M2.6 -295.4 Q4.1 -286.0 3.6 -276.5 Q9.2 -285.0 10.4 -295.4 Z" fill="#d1a668"/><path d="M6.1 -294.6 Q7.5 -286.0 7.3 -277.3 Q11.9 -285.0 12.9 -294.6 Z" fill="#b08049"/><path d="M8.2 -293.9 Q9.9 -286.0 9.6 -278.1 Q15.5 -285.0 16.8 -293.9 Z" fill="#b8874f"/><path d="M11.9 -293.1 Q13.4 -286.0 13.4 -278.0 Q18.0 -285.0 19.1 -293.1 Z" fill="#c99a5e"/><path d="M13.7 -292.5 Q15.4 -286.0 15.9 -277.9 Q21.0 -285.0 22.3 -292.5 Z" fill="#a97a45"/><path d="M-15.9 -298 Q-14.5 -289 -15.0 -281.0 Q-11.2 -289 -10.1 -298 Z" fill="#a97a45" opacity="0.9"/><path d="M-9.7 -298 Q-8.4 -289 -9.1 -281.9 Q-5.4 -289 -4.3 -298 Z" fill="#d1a668" opacity="0.9"/><path d="M-3.6 -298 Q-2.3 -289 -2.6 -282.9 Q0.6 -289 1.6 -298 Z" fill="#b08049" opacity="0.9"/><path d="M2.2 -298 Q3.6 -289 3.2 -283.8 Q6.7 -289 7.8 -298 Z" fill="#b8874f" opacity="0.9"/><path d="M8.1 -298 Q9.6 -289 9.0 -282.1 Q12.7 -289 13.9 -298 Z" fill="#c99a5e" opacity="0.9"/><path d="M13.1 -298 Q14.5 -289 13.6 -280.5 Q17.8 -289 18.9 -298 Z" fill="#a97a45" opacity="0.9"/>
+    <g stroke-linecap="round" fill="none">
+      <path d="M-9 -303 Q-12 -293 -14.5 -284 M1 -305 Q-1 -294 -3.5 -282 M9 -304 Q8.5 -294 6.6 -283" stroke="#e4bc84" stroke-width="0.45" opacity="0.85"/>
+      <path d="M-4 -304 Q-6.5 -294 -8.6 -283 M5 -305 Q4 -294 2 -281" stroke="#87592f" stroke-width="0.4" opacity="0.7"/>
+      <path d="M-20.4 -277 C-21 -273 -21 -269 -20.6 -265 M20.4 -277 C21 -273 21 -269 20.6 -265" stroke="#87592f" stroke-width="0.8"/>
+    </g>
+    <!-- warm rim light from the sunset -->
+    <path d="M-16 -300 C-10 -306 4 -308 12 -304" stroke="#ffd29a" stroke-width="1.4" fill="none" opacity="0.6" stroke-linecap="round"/>
+  </g>
